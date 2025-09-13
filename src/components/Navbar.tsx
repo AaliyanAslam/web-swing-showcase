@@ -20,7 +20,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
+    { name: 'Spider AI', path: '/projects' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -60,9 +60,7 @@ const Navbar = () => {
                 )}
               </Link>
             ))}
-            <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Get In Touch
-            </Button>
+          
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,9 +92,7 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button variant="outline" size="sm" className="mt-4 self-start border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Get In Touch
-              </Button>
+          
             </div>
           </div>
         )}

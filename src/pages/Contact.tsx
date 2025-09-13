@@ -126,7 +126,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="min-h-screen" data-scroll-section>
+    <>
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
@@ -328,7 +328,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
+    
   );
 };
 
